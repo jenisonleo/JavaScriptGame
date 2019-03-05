@@ -1,0 +1,21 @@
+<html>
+   <body onload="loadGame()">
+      <div>
+      <canvas id="gameContainer" width="300" height="200" style="border:1px solid #d3d3d3">
+      </canvas>
+   </div>
+   <div id="upDiv">
+      <button onmousedown="upclicked()" onmouseup="stopMovement()">Up</button>
+   </div>
+   <div id="leftDiv">
+         <button onmousedown="leftclicked()" onmouseup="stopMovement()">Left</button>
+         <button onmousedown="rightclicked()" onmouseup="stopMovement()">Right</button>
+   </div>
+   <div id="downDiv">
+      <button onmousedown="downclicked()" onmouseup="stopMovement()">Down</button>
+
+   </div>
+   <script src="index.js">
+      </script>
+   </body>
+</html>
